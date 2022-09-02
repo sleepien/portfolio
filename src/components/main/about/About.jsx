@@ -5,7 +5,7 @@ export const About = () => {
         Hello, I'am app developer from Kazakhstan!
       </h1>
       <div>
-        <h1 className="text-2xl mt-6 font-bold">Kenes Alisher</h1>
+        <h1 className="text-2xl mt-6 font-bold">Kenes Alisher TEST</h1>
         <p className="text-base">Front-end / Back-end</p>
       </div>
     </div>
