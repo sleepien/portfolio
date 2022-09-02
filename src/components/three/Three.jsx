@@ -13,6 +13,8 @@ export const Three = () => {
           enableZoom={true}
           autoRotate={true}
           rotateSpeed={"0.5"}
+          maxDistance={"7"}
+          minDistance={"0.7"}
         />
         <ambientLight intensity={0.5} />
         <directionalLight position={[-2, 5, 2]} intensity={1} />

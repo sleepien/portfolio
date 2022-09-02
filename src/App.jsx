@@ -6,7 +6,6 @@ function App() {
       <Header />
       <Three />
       <Main />
-      <Footer />
     </div>
   );
 }
