@@ -10,7 +10,7 @@ export const Main = () => {
   }, []);
 
   return (
-    <div className="w-[85%] m-auto z-10 grow">
+    <div className="w-[85%] max-w-[1200px] m-auto z-10 grow">
       <AnimatePresence>
         {isVisible && (
           <motion.div

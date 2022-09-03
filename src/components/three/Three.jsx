@@ -7,7 +7,7 @@ export const Three = () => {
   return (
     <>
       <Canvas
-        style={{ width: "100%", margin: "auto", height: "13rem", zIndex: "0" }}
+        style={{ width: "85%", margin: "auto", height: "20rem", zIndex: "0" }}
       >
         <OrbitControls
           enableZoom={true}

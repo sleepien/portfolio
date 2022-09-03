@@ -13,7 +13,7 @@ const DropDownMenu = ({ setVisible, isVisible }) => {
               </a>
             </li>
             <li>
-              <a href="http://github.com">View Source</a>
+              <a href="https://github.com/whylone1y/portfolio">View Source</a>
             </li>
           </ul>
         </div>

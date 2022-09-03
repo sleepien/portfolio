@@ -25,7 +25,7 @@ export const Skills = () => {
 
   return (
     <div>
-      <h1 className="mt-6 font-bold text-2xl">Skills</h1>
+      <h1 className="mt-6 font-bold text-2xl lg:text-3xl">Skills</h1>
       <ul className="flex flex-wrap w-full justify-between mt-4">
         {skills.map((skill, index) => (
           <Skill skill={skill} key={index} />
