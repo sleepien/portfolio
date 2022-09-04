@@ -4,7 +4,7 @@ import portfolio from "../../../assets/images/portfolio.png";
 
 const ProjectCard = ({ project }) => {
   return (
-    <div className="w-full sm:w-[80%] md:w-[49.2%] aspect-video bg-sw  dark:bg-sb rounded-md p-3 lg:p-4">
+    <div className="w-full sm:w-[80%] md:w-[49.2%] aspect-video bg-sw  dark:bg-sb rounded-md p-3 lg:p-4 mb-4">
       <div className="flex justify-between">
         <img
           src={portfolio}
@@ -32,19 +32,19 @@ const ProjectCard = ({ project }) => {
           ))}
         </div>
       </div>
-      <div className="flex w-[50%] m-auto mt-4 justify-between">
+      <div className="flex w-[80%] lg:w-[70%] m-auto mt-4 justify-between">
         <a
           href="https://kenesalisher.netlify.app/"
-          className="w-20 px-2 py-1 rounded-md bg-green text-white dark:text-black flex text-lg lg:text-xl items-center justify-center"
+          className="w-28 px-2 py-1 rounded-md bg-green text-white dark:text-black flex text-lg lg:text-xl items-center justify-center"
         >
-          <RiRadioButtonLine className="mr-1 text-red" />
+          <RiRadioButtonLine className="mr-1 text-red text-2xl lg:text-3xl" />
           Live
         </a>
         <a
           href="https://github.com/whylone1y/portfolio"
-          className="w-20 px-2 py-1 rounded-md bg-green text-white dark:text-black flex text-lg lg:text-xl items-center justify-center"
+          className="w-28 px-2 py-1 rounded-md bg-green text-white dark:text-black flex text-lg lg:text-xl items-center justify-center"
         >
-          <DiGit />
+          <DiGit className=" text-2xl lg:text-3xl mr-1" />
           Source
         </a>
       </div>
