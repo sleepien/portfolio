@@ -7,7 +7,7 @@ export const Header = () => {
 
   return (
     <div className="dark:bg-black/30 bg-white/30 backdrop-blur-sm fixed top-0 z-10 w-screen h-16 lg:h-20 flex lg:text-2xl">
-      <div className="w-[350px] lg:w-[1200px] flex items-center justify-between m-auto px-4">
+      <div className="w-[85%] max-w-[1000px] flex items-center justify-between m-auto">
         <Logo />
         <div className="flex">
           <Switcher />
