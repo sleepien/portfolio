@@ -1,7 +1,7 @@
 import { useState } from "react";
 import ProjectCard from "./ProjectCard";
-import { DiReact, DiGit } from "react-icons/di";
-import { SiTailwindcss } from "react-icons/si";
+import { DiReact, DiGit, DiMongodb } from "react-icons/di";
+import { SiTailwindcss, SiTypescript, SiNodedotjs } from "react-icons/si";
 
 export const Projects = () => {
   const [projects] = useState([
@@ -12,10 +12,10 @@ export const Projects = () => {
         {
           id: 1,
           icon: <DiReact />,
-          title: "react",
+          title: "React",
         },
-        { id: 2, icon: <SiTailwindcss />, title: "tailwind" },
-        { id: 3, icon: <DiGit />, title: "git" },
+        { id: 2, icon: <SiTailwindcss />, title: "Tailwind" },
+        { id: 3, icon: <DiGit />, title: "Git" },
       ],
       description: "Portfolio to show my skills",
       github: "https://github.com/whylone1y/portfolio",
@@ -23,17 +23,21 @@ export const Projects = () => {
     },
     {
       id: 2,
-      title: "Portfolio",
+      title: "Movie-tracker",
       skills: [
         {
           id: 1,
           icon: <DiReact />,
           title: "react",
         },
-        { id: 2, icon: <SiTailwindcss />, title: "tailwind" },
-        { id: 3, icon: <DiGit />, title: "git" },
+        { id: 2, icon: <SiTailwindcss />, title: "Redux" },
+        { id: 3, icon: <SiTailwindcss />, title: "tailwind" },
+        { id: 4, icon: <SiTypescript />, title: "TypeScript" },
+        { id: 5, icon: <DiMongodb />, title: "MongoDB" },
+        { id: 6, icon: <SiNodedotjs />, title: "Node JS" },
+        { id: 7, icon: <DiGit />, title: "Git" },
       ],
-      description: "Portfolio to show my skills",
+      description: "App for tracking movies",
       github: "https://github.com/whylone1y/portfolio",
       live: "https://kenesalisher.netlify.app/",
     },
@@ -41,12 +45,10 @@ export const Projects = () => {
 
   return (
     <div className="mt-6">
-      <h1 className="font-bold text-2xl lg:text-3xl">Projects</h1>
-      <div>
+      <h1 className="font-bold text-2xl lg:text-3xl mb-4">Projects</h1>
+      <div className="flex justify-center md:justify-between flex-wrap w-full">
         {projects.map((project) => (
-          <div key={project.id}>
-            <ProjectCard />
-          </div>
+          <ProjectCard key={project.id} project={project} />
         ))}
       </div>
     </div>

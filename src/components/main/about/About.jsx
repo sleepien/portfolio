@@ -6,7 +6,7 @@ export const About = () => {
       </h1>
       <div>
         <h1 className="text-2xl mt-6 font-bold lg:text-3xl">Kenes Alisher</h1>
-        <p className="text-base lg:text-xl">Front-end / Back-end</p>
+        <p className="text-lg lg:text-xl">Front-end / Back-end</p>
       </div>
     </div>
   );
