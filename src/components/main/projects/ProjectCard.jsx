@@ -9,9 +9,9 @@ const ProjectCard = ({ project }) => {
         <img
           src={portfolio}
           alt="portfolio-image"
-          className="w-[60%] rounded-md"
+          className="w-[47%] rounded-md"
         />
-        <div className="w-[37%]">
+        <div className="w-[50%]">
           <h1 className="text-xl lg:text-2xl font-bold mb-2">
             {project.title}
           </h1>
@@ -32,19 +32,19 @@ const ProjectCard = ({ project }) => {
           ))}
         </div>
       </div>
-      <div className="flex w-[80%] lg:w-[70%] m-auto mt-4 justify-between">
+      <div className="flex w-full mt-4 justify-between">
         <a
           href="https://kenesalisher.netlify.app/"
-          className="w-28 px-2 py-1 rounded-md bg-green text-white dark:text-black flex text-lg lg:text-xl items-center justify-center"
+          className="w-[49%] px-2 py-1 rounded-md bg-green text-white dark:text-black flex text-lg lg:text-xl items-center"
         >
           <RiRadioButtonLine className="mr-1 text-red text-2xl lg:text-3xl" />
           Live
         </a>
         <a
           href="https://github.com/whylone1y/portfolio"
-          className="w-28 px-2 py-1 rounded-md bg-green text-white dark:text-black flex text-lg lg:text-xl items-center justify-center"
+          className="w-[49%] px-2 py-1 rounded-md bg-green text-white dark:text-black flex text-lg lg:text-xl items-center"
         >
-          <DiGit className=" text-2xl lg:text-3xl mr-1" />
+          <DiGit className=" mr-1 text-2xl lg:text-3xl" />
           Source
         </a>
       </div>
