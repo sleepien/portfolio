@@ -4,7 +4,7 @@ const DropDownMenu = ({ setVisible, isVisible }) => {
       {isVisible && (
         <div
           onClick={() => setVisible(false)}
-          className="absolute top-0 bottom-0 left-0 right-0 z-10 bg-menuB"
+          className="absolute top-0 bottom-0 left-0 right-0 z-10 bg-menuB min-h-screen"
         >
           <ul className="fixed right-[7.5%] top-20 w-[12rem] bg-white dark:bg-menuB rounded-md border dark:border-white px-4 py-2 border-black">
             <li className="mb-2">
