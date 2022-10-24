@@ -2,12 +2,15 @@ import { useState } from "react";
 import ProjectCard from "./ProjectCard";
 import { DiReact, DiGit, DiMongodb,DiFirebase } from "react-icons/di";
 import { SiTailwindcss, SiTypescript, SiNodedotjs } from "react-icons/si";
+import portfolio from "../../../assets/images/portfolio.png";
+import anime from "../../../assets/images/99d93b2a-5594-43b6-82d7-712bd343d692.jpg.png";
 
 export const Projects = () => {
   const [projects] = useState([
     {
       id: 1,
       title: "Portfolio",
+      img: portfolio,
       skills: [
         {
           id: 1,
@@ -23,6 +26,7 @@ export const Projects = () => {
     },
     {
       id: 2,
+      img: anime,
       title: "Anime Tracker",
       skills: [
         {
