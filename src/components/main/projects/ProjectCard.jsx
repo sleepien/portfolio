@@ -7,7 +7,7 @@ const ProjectCard = ({ project }) => {
     <div className="w-full sm:w-[80%] md:w-[49.2%] aspect-video bg-sw  dark:bg-sb rounded-md p-3 lg:p-4 mb-4">
       <div className="flex justify-between">
         <img
-          src={portfolio}
+          src={project.img}
           alt="portfolio-image"
           className="w-[47%] rounded-md"
         />
