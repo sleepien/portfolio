@@ -1,6 +1,6 @@
 import { useState } from "react";
 import ProjectCard from "./ProjectCard";
-import { DiReact, DiGit, DiMongodb } from "react-icons/di";
+import { DiReact, DiGit, DiMongodb,DiFirebase } from "react-icons/di";
 import { SiTailwindcss, SiTypescript, SiNodedotjs } from "react-icons/si";
 
 export const Projects = () => {
@@ -23,23 +23,22 @@ export const Projects = () => {
     },
     {
       id: 2,
-      title: "Movie-tracker",
+      title: "Anime Tracker",
       skills: [
         {
           id: 1,
           icon: <DiReact />,
           title: "react",
         },
-        { id: 2, icon: <SiTailwindcss />, title: "Redux" },
-        { id: 3, icon: <SiTailwindcss />, title: "tailwind" },
-        { id: 4, icon: <SiTypescript />, title: "TypeScript" },
-        { id: 5, icon: <DiMongodb />, title: "MongoDB" },
-        { id: 6, icon: <SiNodedotjs />, title: "Node JS" },
-        { id: 7, icon: <DiGit />, title: "Git" },
+        { id: 1, icon: <SiTailwindcss />, title: "tailwind" },
+        { id: 2, icon: <SiTypescript />, title: "TypeScript" },
+        { id: 3, icon: <DiGit />, title: "Git" },
+        { id: 4, icon: <DiReact />, title: "React Native" },
+        { id: 5, icon: <DiFirebase />, title: "Firebase" },
       ],
-      description: "App for tracking movies",
-      github: "https://github.com/whylone1y/portfolio",
-      live: "https://kenesalisher.netlify.app/",
+      description: "App for tracking anime",
+      github: "https://github.com/whylone1y/T-Anime",
+      live: "",
     },
   ]);
 
