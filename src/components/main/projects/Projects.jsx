@@ -29,11 +29,7 @@ export const Projects = () => {
       img: anime,
       title: "Anime Tracker",
       skills: [
-        {
-          id: 1,
-          icon: <DiReact />,
-          title: "react",
-        },
+        
         { id: 1, icon: <SiTailwindcss />, title: "tailwind" },
         { id: 2, icon: <SiTypescript />, title: "TypeScript" },
         { id: 3, icon: <DiGit />, title: "Git" },
