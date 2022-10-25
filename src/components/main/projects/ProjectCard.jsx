@@ -9,7 +9,7 @@ const ProjectCard = ({ project }) => {
         <img
           src={project.img}
           alt="portfolio-image"
-          className="w-[47%] rounded-md"
+          className="w-[47%] h-32 object-cover rounded-md"
         />
         <div className="w-[50%]">
           <h1 className="text-xl lg:text-2xl font-bold mb-2">
