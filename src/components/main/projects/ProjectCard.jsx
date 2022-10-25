@@ -32,7 +32,7 @@ const ProjectCard = ({ project }) => {
           ))}
         </div>
       </div>
-      <div className="flex w-full mt-4 justify-between">
+      <div className="flex w-full mt-4 justify-between absolute bottom-0">
         <a
           href="https://kenesalisher.netlify.app/"
           className="w-[49%] px-2 py-1 rounded-md bg-green text-white dark:text-black flex text-lg lg:text-xl items-center"
