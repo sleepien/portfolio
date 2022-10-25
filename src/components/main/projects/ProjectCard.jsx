@@ -34,14 +34,14 @@ const ProjectCard = ({ project }) => {
       </div>
       <div className="flex w-full mt-4 justify-between">
         <a
-          href="https://kenesalisher.netlify.app/"
+          href={project.live}
           className="w-[49%] px-2 py-1 rounded-md bg-green text-white dark:text-black flex text-lg lg:text-xl items-center"
         >
           <RiRadioButtonLine className="mr-1 text-red text-2xl lg:text-3xl" />
           Live
         </a>
         <a
-          href="https://github.com/whylone1y/portfolio"
+          href={project.github}
           className="w-[49%] px-2 py-1 rounded-md bg-green text-white dark:text-black flex text-lg lg:text-xl items-center"
         >
           <DiGit className=" mr-1 text-2xl lg:text-3xl" />
