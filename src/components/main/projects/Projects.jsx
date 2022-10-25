@@ -32,7 +32,7 @@ export const Projects = () => {
         
         { id: 1, icon: <SiTailwindcss />, title: "tailwind" },
         { id: 2, icon: <SiTypescript />, title: "TypeScript" },
-        { id: 3, icon: <DiGit />, title: "Git" },
+        
         { id: 4, icon: <DiReact />, title: "React Native" },
         { id: 5, icon: <DiFirebase />, title: "Firebase" },
       ],
