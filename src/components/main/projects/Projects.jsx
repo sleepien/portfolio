@@ -38,7 +38,7 @@ export const Projects = () => {
       ],
       description: "App for tracking anime",
       github: "https://github.com/whylone1y/T-Anime",
-      live: "",
+      live: "https://play.google.com/store/apps/details?id=com.whylone1y.TAnime",
     },
   ]);
 
